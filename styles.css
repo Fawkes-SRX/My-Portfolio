@@ -2,15 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #1a1919;
     color: #fff;
   }
   
+  #portrait {
+    margin-bottom: 25px;
+  }
   header {
     background-color: #333;
-    padding: 20px;
+    padding: 1%;
   }
   
+  .PortraitImage {
+    height: auto;
+    width: auto;
+  }
+
   header h1 {
     margin: 0;
   }

@@ -3,34 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>My Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <section id="section-hero">
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <img src="./Portrait Image.jpeg" alt="image-portrait" id="portrait">
+        <h1 class="display-5 fw-bold text-white">Scott Rose</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-1">Personal website (work in progress).</p>
+          <p class="fs-5 mb-4">I welcome you to take a look around!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-projects">
+    <section id="section-hero">
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">Projects</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-1">In Progress</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="section-aboutme">
+
+
+  </section>
+
+  <section id="section-contactme">
+
+  </section>
+
   <header>
-    <h1>My Portfolio</h1>
+    <img src="Portrait Image.jpeg" alt="PortraitImage" class="PortraitImage">
+    <h1 style="color: blue;">My Personal Website</h1>
     <nav>
       <ul>
-        <li><a href="#personal-statement">Personal Statement</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#hobbies-interests">Hobbies & Interests</a></li>
+        <li><a href="./Public/hero.html">Hero</a></li>
+        <li><a href="./Public/cv.html">CV</a></li>
+        <li><a href="#DevelopmentPortfolio">Development Portfolio</a></li>
+        <li><a href="#AboutMe">About Me</a></li>
+        <li><a href="#ContactDetails">Contact Details</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="personal-statement">
-      <h2>Personal Statement</h2>
-      <p>Your personal statement goes here.</p>
+    <section id="Hero">
+      <h2>Hero</h2>
+      <p>My name is Scott Rose, I'm an experienced IT professional with a broad range of skills covering a variety of IT topics/sectors. <br><br>
+        I spent several years working in technical support and IT Support Desk roles, before eventually progressing to a Software Engineer role. <br>
+        This role was given to me with fairly little experience based on a recent degree in Software Engineering. <br> 
+        The main purpose of this website is to motivate me to continue learning new skills which will help in progressing my carear in Software Development.
+      </p>
     </section>
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <p>Your portfolio content goes here.</p>
+    <section id="CV">
+      <h2>CV</h2>
+      <p>My details can be found on <a href="https://www.linkedin.com/in/scott-rose1991/">Linkedin</a> <br>
+      In development...
+    </p>
     </section>
-    <section id="hobbies-interests">
-      <h2>Hobbies & Interests</h2>
-      <p>Your hobbies and interests content goes here.</p>
+    <section id="DevelopmentPortfolio">
+      <h2>Development Portfolio</h2>
+      <p>In development...</p>
     </section>
+    <section id="AboutMe">
+      <h2>About Me</h2>
+      <h3>Hobbies & Interests</h3>
+      <p>
+        <ol>
+          <li>Animals and their welfare</li>
+          <li>Software Development & Web Development</li>
+          <li>Gaming</li>
+          <li>Music</li>
+          <li>Family life</li>
+        </ol>
+      </p>
+    </section>
+  <section id="ContactDetails">
+    <h2>Contact Details</h2>
+      <p>
+        In development...
+      </p>
+  </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>
